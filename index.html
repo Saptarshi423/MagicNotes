@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Magic Notes</title>
+
+  <link rel="stylesheet" href="CSS/styles.css">
+
+
+  <!-- BOOTSTRAP -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+
+
+</head>
+
+<body>
+
+
+  <div class="section-1" id="sec1">
+
+
+    <section class='title'>
+      <div class="contaier">
+
+        <nav class="navbar navbar-dark bg-#e1f1dd">
+          <a class="font-effect-shadow-multiple navbar-brand" style="color: black; font-family: Sofia,sans-serif; font-size: 40px;" >Magic Notes</a>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search your note"
+              aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
+
+        <div class="container" style="padding-top: 30px;">
+          <h1>Welcome to Magic Notes</h1>
+          <div class="card-body">
+            <h5 class="card-title">Add a Note</h5>
+            <div class="form-group">
+              <textarea class="form-control" id="addTxt" rows="4" placeholder="Type here"></textarea>
+            </div>
+            <button class="button btn btn-primary" id="addBtn">Add</buttton>
+          </div>
+          <img src="mountain.png" alt="mountains" class="responsive bottom-mountains" style="margin-left: 110px;">
+        </div>
+
+        
+
+      </div>
+    </section>
+
+    <section class = "infoSection my-4 mr-sm-2">
+      <div class="container">
+        <h1>Your Notes</h1>
+        <hr style="background-color:black;width: auto;">
+            <div id="notes" class="row container-fluids">
+                <!-- <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Note</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Delete Note</a>
+                    </div>
+                </div> -->
+            </div>
+      </div>
+    </section>
+
+
+  </div>
+  <script src="JavaScript/app.js"></script>
+</body>
+
+</html>

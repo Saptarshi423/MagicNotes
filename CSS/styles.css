@@ -1,0 +1,56 @@
+#sec1{
+    height: 0%;
+  }
+  .title{
+    background-color: #e1f1dd;
+  }
+  
+  .navbar-brand{
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+  
+  .nav-collap{
+    padding-right: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  
+  responsive.bottom-mountains{
+    position: relative;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    
+  }
+  .responsive {
+    width: 70%;
+    height: 10%;
+  }
+  
+  #addTxt {
+    border-radius: 1rem;
+    
+    }
+  #addBtn{
+      display: inline-block;
+      border-radius: 4px;
+      background-color:cadetblue;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px;
+      padding: 20px;
+      width: 100px;
+      height: 60px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+    .form-inline{
+      margin-right: 100px;
+    }
