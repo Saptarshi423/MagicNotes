@@ -6,3 +6,5 @@
 - How to perform CRUD operations using Vanilla JavaScript.
 - How to stores data in the browsers local storage.
 - Get data from localstorage when needed.
+
+https://notes2380.netlify.app(click here)
