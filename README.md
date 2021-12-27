@@ -1,5 +1,5 @@
 # MAGIC NOTES
- It is a web application that can be used to write important daily notes. It is built using HTML/CSS/JavaScript. It also has a functionality to delete any particular note if not    needed. Stores user information in browser's local storage.
+A web application that can be used to store important daily notes. It is built using HTML/CSS/JavaScript. It also has a functionality to delete any particular note if not    needed. Stores user information in browser's local storage.
  
  ## Lessons Learned
 
